@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc, query, where, getDocs, collection } from "firebase/firestore"; // Assure-toi d'importer collection ici
 import { db } from './api/firebase';
@@ -43,13 +43,13 @@ const App = () => {
   return (
     <Provider store={store}>
       <ThemeProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/dashboard/*" element={<Dash currentUser={currentUser} userData={userData} />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </Provider>
   );
