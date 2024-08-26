@@ -1,0 +1,44 @@
+.dash-li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .dash-li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .dash-li.active::before {
+    background-color: #8052C6;
+  }
+  
+  
+  .dash-li.active .dash-tab {
+    background-color: #8052C6;
+    color: #FFFF;
+  }
+
+  .dash-tab{
+    border-radius: 8px;
+  }
+
+  .dash-li:hover .dash-tab{
+    background-color: #DAD4FF;
+    color: #5704DF;
+  }
+  
+  .dash-li:hover .dash-tab svg{
+    color: #5704DF;
+  }
+  
+  .dash-li.active .dash-tab svg {
+    color: #FFFF;
+  }
+  

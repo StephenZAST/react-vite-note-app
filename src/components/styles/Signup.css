@@ -1,0 +1,79 @@
+@keyframes stretchHorizontal {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+  }
+  
+  .custum-modal-box {
+    animation: scaleUp 0.5s ease-out;
+    margin-top: -20%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: translate(0%, 0%) rotate3d(0, 0, 0, 0deg);
+    transition: 0.5s ease-in-out;
+    background-color: #f0f0f0;
+  }
+
+  .modal-backdrop{
+    height: 1050px;
+  }
+
+  .sign-up-formone{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    padding: 20px;
+  }
+
+  .sign-up-formtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .sign-up-input{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .signup-text{
+    color: black;
+    font-weight: 400;
+    padding-top: 7px;
+  }
+
+  .signup-link{
+    color: #0070E0 ;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .custum-modal-box{
+      margin-top: -30%;
+    }
+
+  }
+  @media screen and (max-width: 650px) {
+    .custum-modal-box{
+      margin-top: -50%;
+    }
+
+  }
+  @media screen and (max-width: 400px) {
+  
+    .custum-modal-box{
+      margin-top: -75%;
+    }
+  }

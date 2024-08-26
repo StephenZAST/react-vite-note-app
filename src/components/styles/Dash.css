@@ -1,0 +1,198 @@
+
+
+.dash-main{
+    width: 100%;
+    height: 100%;
+    background-color: #252B42;
+}
+
+.dash-main-left{
+    max-width: 231px;
+}
+
+.dash{
+    display: flex;
+    flex-direction: row;
+}
+.dash-back-dark{
+background-color: #252B42;
+}
+.dash-back-light{
+background-color: #fff;
+}
+
+
+
+.drawer{
+    position: relative;
+    display: grid;
+    grid-auto-columns: max-content auto;
+    width: 100%;
+    max-width: 300px;
+    height: 912px;
+}
+
+.main-content{
+    width: 100%;
+    height: fit-content;
+}
+
+.dash-logo{
+    width: 300px;
+    height: 84px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-logo-in{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.dash-tab{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dash-li{
+    height: 60px;
+}
+
+.dash-ul{
+    padding: 15px 2rem;
+}
+
+.icone-test{
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+
+/* ---------------Navbar-------------- */
+
+.dash-top-navbar{
+    display: flex;
+    align-items: center;
+    padding: var(--navbar-padding, 0.5rem);
+    min-height: 4rem;
+    width: 100%;
+    margin-left: .5px;
+}
+
+.dash-navbar-start, .dash-navbar-end{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.dash-navbar-end{
+    justify-content: end;
+}
+.dash-navbar-start{
+    justify-content: space-between;
+}
+
+.dash-top-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.dash-search-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 40px;
+    width: 255px;
+    height: 40px;
+
+  }
+  
+  .search-icon {
+    width: fit-content;
+    margin-right: 8px;
+    color: #8BA3CB;
+    fill: #8BA3CB;
+  }
+  
+  .search-input {
+    width: fit-content;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    color: #8BA3CB;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .top-navbar-profil-two{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+  }
+
+  .profil-text{
+    font-family: 'Inter';
+    color: white;
+    font-weight: 700;
+  }
+    .profil-text-two{
+    font-family: 'Inter';
+    font-weight: 700;
+  }
+
+  .svg-profil-set{
+    margin-top: 15px;
+  }
+
+  .profil-div-one, .profil-div-two{
+    gap: 1rem;
+  }
+
+  .profil-div-tree,  .profil-div-one, .avatar-profil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .avatar > div {
+    display: flex;
+  }
+
+  .menu :where(li > details > summary):after{
+    box-shadow: 2px 2px #CCCCCC;
+  }
+
+  .menu-horizontal > li:not(.menu-title) > details > ul{
+    background-color: #7D3DC4;
+  }
+
+.summary-profil:active{
+    background-color: transparent;
+}

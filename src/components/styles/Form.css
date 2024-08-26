@@ -1,0 +1,124 @@
+.form-container {
+    position: relative;
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* .form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+  } */
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: black;
+}
+
+label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(114, 114, 114);
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.signup-button, .submit-button {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.25s;
+}
+
+.signup-button{
+    margin: 5px 0px;
+}
+.login-button {
+    background-color: #1F8693;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.25s;
+}
+.login-button {
+    background-color: #1F8693;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.25s;
+}
+
+.mtext{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.clear-button {
+    background-color: #E5392E;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.25s;
+    margin-top: 5px;
+}
+.clear-button:hover {
+    background-color: white;
+    color: #E5392E;
+    cursor: pointer;
+    padding: 10px;
+    border: solid 1px #E5392E;
+    border-radius: 4px;
+    transition: ease-out 0.25s;
+    scale: 1;
+}
+
+.upload{
+    margin-top: 5px;
+    border: none;
+}
+.message{
+    background-color: #f0f0f0;
+    border: solid 1px #6B6B6B;
+    color: #6B6B6B;
+}
+
+.tag{
+    margin-top: 5px;
+}
+
+.title{
+    margin-bottom: 5px;
+}

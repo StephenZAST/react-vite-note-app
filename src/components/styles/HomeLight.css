@@ -1,0 +1,123 @@
+.nav-bg-light{
+    background-color: #E1F4FF;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.logotextlight{
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #252B42;
+    border: none;
+    
+}
+
+.logotextlight:hover{
+    background-color: none;
+    
+}
+
+.signup-light{
+    border-radius: 30px;
+    width: 7rem;
+    background-color: #fff;
+    border: none;
+    color: black;
+    box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.22);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+.button-light{
+    background-color: #fff;
+    border: none;
+    color: black;
+    box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.22);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+.button-light:hover{
+    background-color: #D1D4D7;
+}
+.signup-light:hover{
+    background-color: #D1D4D7;
+
+}
+
+
+/* -----------------Hero-serction------------------------ */
+
+.title-light{
+    color: #252B42;
+    transition:  0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .description-light{
+    color: #222222;
+    transition:  0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .hero-main-light{
+    background: wheat;
+    transition: background-image 0.5s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .hero-main-light{
+    background: linear-gradient(171deg, rgba(225,244,255,1) 7%, rgba(225,244,255,1) 60%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+
+  .orangeCircle-light{
+  fill: #31A0FE;
+  transition: 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* ----------feature-section-------------- */
+
+.feature-hero-light {
+    background: #fff;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.spansvg-light-1{
+    background-color: #31A0FE;
+  }
+  .spansvg-light-2{
+  background-color: #23856D;
+  }
+  .spansvg-light-3{
+  background-color: #EC5C2E;
+  }
+
+
+  /* --------------------------GetStartedSection--------------------- */
+
+
+  .GetStartedSection-light{
+    background: #fff;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+  .CompanySection-light{
+    background: rgb(225,244,255);
+    background: linear-gradient(185deg, rgba(225,244,255,1) 7%, rgba(225,244,255,1) 71%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  /* ----------action-light------- */
+
+  .action-light{
+    background: #fff;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  /* ---------footer-section-------------- */
+
+  .footer-text-light{
+color: #737373;
+transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .footer-light{
+    background-color: #E1F4FF;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+  }

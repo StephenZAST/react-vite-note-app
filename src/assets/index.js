@@ -1,0 +1,6 @@
+export { default as Icone1 } from './icone1.svg'
+export { default as Icone2 } from './icone2.svg'
+export { default as Icone3 } from './icone3.svg'
+export { default as Appview } from './../assets/Appviews.png'
+export { default as Restless } from './../assets/restless.png'
+export { default as Bihance } from './../assets/Bihance.png'
